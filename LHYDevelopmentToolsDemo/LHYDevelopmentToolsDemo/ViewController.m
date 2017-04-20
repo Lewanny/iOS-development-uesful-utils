@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LHYTools.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 版本号
+    NSLog(@"系统版本号：%f", [LHYTools getSysteVersion]);
 }
 
 

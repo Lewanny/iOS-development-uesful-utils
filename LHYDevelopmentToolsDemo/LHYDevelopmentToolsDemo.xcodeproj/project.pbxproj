@@ -14,6 +14,7 @@
 		CA5469811EA6462000899847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5469801EA6462000899847 /* Assets.xcassets */; };
 		CA5469841EA6462000899847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5469821EA6462000899847 /* LaunchScreen.storyboard */; };
 		CA54698F1EA6462000899847 /* LHYDevelopmentToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA54698E1EA6462000899847 /* LHYDevelopmentToolsDemoTests.m */; };
+		CAE5E0EC1EA8D80900FAAEB3 /* LHYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5E0EB1EA8D80900FAAEB3 /* LHYTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CA54698A1EA6462000899847 /* LHYDevelopmentToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHYDevelopmentToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA54698E1EA6462000899847 /* LHYDevelopmentToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHYDevelopmentToolsDemoTests.m; sourceTree = "<group>"; };
 		CA5469901EA6462000899847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE5E0EA1EA8D80900FAAEB3 /* LHYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYTools.h; sourceTree = "<group>"; };
+		CAE5E0EB1EA8D80900FAAEB3 /* LHYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CA5469781EA6462000899847 /* AppDelegate.m */,
 				CA54697A1EA6462000899847 /* ViewController.h */,
 				CA54697B1EA6462000899847 /* ViewController.m */,
+				CAE5E0EA1EA8D80900FAAEB3 /* LHYTools.h */,
+				CAE5E0EB1EA8D80900FAAEB3 /* LHYTools.m */,
 				CA54697D1EA6462000899847 /* Main.storyboard */,
 				CA5469801EA6462000899847 /* Assets.xcassets */,
 				CA5469821EA6462000899847 /* LaunchScreen.storyboard */,
@@ -217,6 +222,7 @@
 				CA54697C1EA6462000899847 /* ViewController.m in Sources */,
 				CA5469791EA6462000899847 /* AppDelegate.m in Sources */,
 				CA5469761EA6462000899847 /* main.m in Sources */,
+				CAE5E0EC1EA8D80900FAAEB3 /* LHYTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +419,7 @@
 				CA5469951EA6462000899847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5469961EA6462000899847 /* Build configuration list for PBXNativeTarget "LHYDevelopmentToolsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				CA5469981EA6462000899847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
