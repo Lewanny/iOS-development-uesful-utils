@@ -17,4 +17,12 @@
  */
 + (float)getSysteVersion;
 
+
+/**
+ *  获取设备屏幕宽度
+ *
+ *  @return 屏幕宽度
+ */
++ (float)getScreenWidth;
+
 @end
