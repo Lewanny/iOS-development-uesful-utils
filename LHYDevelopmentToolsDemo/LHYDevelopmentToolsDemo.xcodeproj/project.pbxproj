@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA4F7B4C1EC3224800EEB9F2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CA5469711EA6462000899847 /* LHYDevelopmentToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHYDevelopmentToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5469751EA6462000899847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA5469771EA6462000899847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 				CA5469801EA6462000899847 /* Assets.xcassets */,
 				CA5469821EA6462000899847 /* LaunchScreen.storyboard */,
 				CA5469851EA6462000899847 /* Info.plist */,
+				CA4F7B4C1EC3224800EEB9F2 /* PrefixHeader.pch */,
 				CA5469741EA6462000899847 /* Supporting Files */,
 			);
 			path = LHYDevelopmentToolsDemo;
@@ -357,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AXTESR7SA4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LHYDevelopmentToolsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LHYDevelopmentToolsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HongYuan-Li.LHYDevelopmentToolsDemo";
@@ -369,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AXTESR7SA4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LHYDevelopmentToolsDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LHYDevelopmentToolsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HongYuan-Li.LHYDevelopmentToolsDemo";

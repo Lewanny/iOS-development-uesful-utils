@@ -21,6 +21,7 @@
     
     // 版本号
     NSLog(@"系统版本号：%f", [LHYTools getSysteVersion]);
+    NSLog(@"状态栏高度：%d", kStatusBarHeight);
 }
 
 
